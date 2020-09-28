@@ -1,0 +1,111 @@
+/* --- RESPONSIVE DESIGN FIRST --- */
+
+/* --- TABLETTE ---*/
+@media (max-width: 991px){
+  #block_list_prod div{
+    width: 340px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+  }
+  #block_list_prod img{
+    margin-top: 15px;
+  }
+}
+
+/* --- SMARTPHONE --- */
+@media (max-width: 730px){
+  #block_list_prod div{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+@media (max-width: 635px){
+  #block_img_list_group{
+    width: 120px;
+  }
+}
+@media (max-width: 545px){
+  #block_img_list_group img{
+    height: 130px;
+  }
+  #block_content_list_group{
+    width: 320px;
+  }
+}
+@media (max-width: 525px){
+  #list_group_prod a{
+    width: 345px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  #block_img_list_group img{
+    width: 150px;
+    margin-left: 85%;
+    margin-bottom: 15px;
+  }
+  #block_content_list_group{
+    text-align: center;
+  }
+  #block_delete_button{
+    position: absolute;
+    right: 0;
+  }
+
+}
+
+body{
+  background-color: #ffbc0014;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url('../font/Allura-Regular.ttf');
+}
+
+header h1{
+  font-family: 'myFont';
+  font-size: 70px;
+  color: #ffcc80;
+}
+header div{
+  background-color: white;
+  box-shadow: 0px -1px 15px;
+  margin-bottom: 80px;
+  border-bottom: 5px solid #ffcc80;
+}
+
+#formulaire input[type="text"]{
+  /* width: 400px; */
+}
+#formulaire textarea{
+  resize: none;
+  /* width: 400px; */
+}
+
+.delete_button
+{
+  font-size: 20px;
+  color: #c30606;
+}
+
+/* --- MORE LINK --- */
+.morecontent span {
+  display: none;
+}
+.morelink {
+  display: block;
+}
+
+footer{
+  margin-top: 100px;
+}
+footer p{
+  line-height: 100px;
+  color: #ffba52;
+  font-weight: 500;
+  margin: 0;
+}
